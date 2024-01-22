@@ -8,7 +8,7 @@ Owner: Семён Болотов (https://vk.com/nemolayn)
 
 API: @pxolly (https://vk.com/pxolly)
 
-Open Source: -------------------------------
+Open Source: https://github.com/semen-bol/PxollyAPI
 
 ## Использование
 Перед началом использования, нужно установить зависимость
