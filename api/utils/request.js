@@ -16,8 +16,10 @@ async function newReq (url, method, params){
         return data.error
     } else if (data.response){ 
         return data.response
-    } else { 
+    } else if(request.status !== 200){ 
         return { error: { error_code: -1, error_msg: "Server has been disabled" }} 
+    } else {
+        return data.response
     }
 }
 

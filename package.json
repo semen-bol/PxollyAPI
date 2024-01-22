@@ -1,11 +1,31 @@
 {
   "name": "pxolly-api",
-  "version": "1.0.21",
-  "description": "",
+  "version": "1.0.9",
+  "description": "API module for pxolly api",
   "main": "./api/src/api.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cd ./api/debug && node test.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "semen-bol",
+  "license": "MIT",
+  "keywords": [
+    "pxolly",
+    "api",
+    "@pxolly",
+    "@pxolly-api",
+    "pxolly-api",
+    "@pxollyapi",
+    "pxollyapi",
+    "js"
+  ],
+  "engines": {
+    "node": ">= 18.14.0",
+    "npm": ">= 9.3.1"
+  },
+  "dependencies": {
+    "axios":"^1.6.5"
+  },
+  "devDependencies": {
+    "pxolly-api": "^1.0.9"
+  }
 }
