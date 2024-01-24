@@ -22,7 +22,7 @@ const pxolly = require("pxolly-api"); // Инициализация модуля
 
 const api = new pxolly.api({token: "PXOLLY TOKEN", v: "2.01"}) // Делаем настройку (token, version), версию можно не указывать, будет использоваться дефолтная версия
 
-async function getInfo() { // Описание функции
+function getInfo() { // Описание функции
     let request = await api.acc.getInfo() // Await тут идет как обязательная вещь
     console.log(request) // Выводим результат
 }
