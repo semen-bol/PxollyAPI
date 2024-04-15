@@ -4,9 +4,15 @@ const request = require("../utils/request.js")
 class api {
     #_token; #_version; #_apiUrl
     constructor({token, v = 2.01, url = "https://api.pxolly.com/m/"}) {
+        // * settings
         this.#_token = token;
         this.#_version = v;
 
+        // Callback
+        this.#_CbConfCode = CbConfCode;
+        this.#_CbUrl = CbUrl;
+
+        // Other
         this.#_apiUrl = url;
     } 
 
