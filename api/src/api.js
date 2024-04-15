@@ -9,8 +9,8 @@ class api {
         this.#_version = v;
 
         // Callback
-        this.#_CbConfCode = CbConfCode;
-        this.#_CbUrl = CbUrl;
+        /*this.#_CbConfCode = CbConfCode;
+        this.#_CbUrl = CbUrl;*/ // made later
 
         // Other
         this.#_apiUrl = url;
