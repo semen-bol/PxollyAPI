@@ -4,7 +4,9 @@
 
 Made with Love ❤️ (100% JavaScript)
 
-Owner: Семён Болотов (https://vk.com/nemolayn)
+Owner of module: Семён Болотов (https://vk.com/nemolayn)
+
+Owner of bot: https://vk.com/pxolly (detail in contacts)
 
 API: @pxolly (https://vk.com/pxolly)
 
